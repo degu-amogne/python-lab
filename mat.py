@@ -5,8 +5,8 @@ say_hello()
 '''this is doc string'''
 height = 1.9 
 wieght = 100
-fruit,animal = "banana" , "Dog"
-x=y=z="orange"
+fruit,animal = "orange" , "cat"
+x=y=z="apple"
 print(type(x))
 print(len(y))
 print (animal)
@@ -15,8 +15,8 @@ print (animal)
 b= input ()
 sum = int(a) + int(b)
 print (sum)"""
-name = input()
-age = input()
-number = input()
+name = input("Enter your name")
+age = input("Enter your age")
+number = input("enter your id")
 print (f"flout {number}")
 print(f"Hello {name} your age is {age}")
