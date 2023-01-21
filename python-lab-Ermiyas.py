@@ -20,3 +20,13 @@ age = input("your age")
 numbers = input("your id")
 print (f"flout {numbers}")
 print(f"Hello {name} your age is {age}")
+
+"""a= input()
+b= input ()
+sum = int(a) + int(b)
+print (sum)"""
+name = input("your name")
+age = input("your age")
+numbers = input("your id")
+print (f"flout {numbers}")
+print(f"Hello {name} your age is {age}")
