@@ -62,8 +62,7 @@ def CharacterFrequencyCounter(text):
    # syntax of Sorted() method :-  sorted(iterable, key=None, reverse=False)
     sorted_chars = sorted(char_count.items(), key=lambda x: x[1], reverse=True)
     
-   #In the below for loop it print the first five characters and their frequencies 
-   #also we use enumerate() method for iterate over a sequence Sorted Characters 
+   #In the below for loop it print the first five characters and their frequencies  
    # Sorted and have access to the index and the value of each element in the sequence.
     for i, (char, count) in enumerate(sorted_chars):
         if i < 6:
@@ -91,7 +90,7 @@ def main():
     #This code return the length of words from the given input
     words = len(text.split())
 
-    #This code return the length of Characters from the given input
+    #This code return the length of Characters from the given input data
     characters = len(text)
     print("|Total lines: = ", lines)
     print("|Total words: = ", words)
