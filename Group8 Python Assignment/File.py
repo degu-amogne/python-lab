@@ -71,4 +71,31 @@ def CharacterFrequencyCounter(text):
                 continue
              print(f'{char}: {count}')
 
+def main():
+    Group8 = 'Group8.txt'
+    text = read_file(Group8)
+    text = textCleaner(text)
+    
+    print(" ")
+    print("To display word and their frequency we use Lists ")
+    print("Word frequency = ")
+    WordFrequencyCounter(text)
+    print("\nCharacter frequency = ")
+    CharacterFrequencyCounter(text)
+    print("\nStatistical Information From Writen File = ")
+    print(" ")
+    
+    lines = text.count("\n") + 1
 
+    #This code return the length of words from the given input
+    words = len(text.split())
+
+    #This code return the length of Characters from the given input data
+    characters = len(text)
+    print("|Total lines is: = ", lines)
+    print("|Total words is: = ", words)
+    print("|Total characters is: = ", characters)
+    print(" ")
+
+if __name__ == '__main__':
+    main()
