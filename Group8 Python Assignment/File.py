@@ -92,7 +92,7 @@ def main():
 
     #This code return the length of Characters from the given input data
     characters = len(text)
-    print("|Total lines: = ", lines)
+    print("|Total lines is: = ", lines)
     print("|Total words: = ", words)
     print("|Total characters: = ", characters)
     print(" ")
